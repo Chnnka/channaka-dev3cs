@@ -1,0 +1,12 @@
+version: '3'
+services:
+  nginx:
+    image: chnnka/channaka-dev3cs:latest  
+    ports:
+      - "80:80"
+
+  nodejs-app:
+    image: chnnka/channaka-nodejs-app:0.0.1.RELEASE
+    ports:
+      - "3000:3000"
+

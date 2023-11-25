@@ -1,0 +1,52 @@
+// This Node.js application allows you to monitor the uptime of various websites. 
+// You can easily add or remove sites by updating the sites.json file.
+
+// Adding a New Site
+
+// 1.Open the sites.json file in the root directory of the project.
+
+// 2.Locate the array of site objects, each with a name, url, and history field.
+
+// 3.To add a new site, insert a new object with the following structure:
+
+// sites.json
+
+// {
+//   "name": "Site Name",
+//   "url": "https://example.com",
+//   "history": []
+// }
+
+// name: The name of the site.
+// url: The URL of the site you want to monitor.
+// history: An empty array that will store the status history of the site.
+// Save the sites.json file.
+
+
+
+// Removing a Site
+
+// 1.Open the sites.json file in the root directory of the project.
+// 2.Locate the array of site objects.
+// 3.To remove a site, find the object corresponding to the site you want to remove and delete it.
+// 4.Save the sites.json file.
+
+
+//sites.json File
+
+// [
+//   {
+//     "name": "Example Site 1",
+//     "url": "https://example1.com",
+//     "history": []
+//   },
+//   {
+//     "name": "Example Site 2",
+//     "url": "https://example2.com",
+//     "history": []
+//   }
+//   // Add or remove sites as needed
+// ]
+// Important Notes
+// Ensure that the JSON syntax is correct after making changes.
+// Make sure to maintain the integrity of the history field as it stores the status records for each site.
